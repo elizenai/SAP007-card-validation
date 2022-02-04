@@ -1,17 +1,26 @@
 import validator from './validator.js';
-//console.log(validator);
 
 const button = document.getElementById("validar");
 
 function validando(e) {
     e.preventDefault()
 
-    let ncard = parseInt(document.getElementById("numeroCartao")).value;  
-    const validarcard = validator.isValid(numeroCartao);
-    document.getElementById("resposta").innerHTML = validarcard;
+    let nCard = document.getElementById("numeroCartao").value;  
+  console.log(nCard)
+    let validarCard = validator.isValid(nCard);
+    console.log(validarCard)
+    let resposta = document.getElementById("resposta");
+    let mascara = validator.maskify(nCard);
+    console.log(mascara)
+    if (validarCard === true) {
+        return resposta.textContent = "CARTÃO VÁLIDO " + mascara; 
+    }else{
+        return resposta.textContent = "CARTÃO INVÁLIDO " + mascara;
+}
 }
 
 button.addEventListener("click", validando);
+
 
 
 
