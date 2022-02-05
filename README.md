@@ -17,7 +17,7 @@
 
 ## 2. Resumo do projeto
 
-Criei um ambiente de e-commerce mais precisamente ja na etapa do pagamento da compra com via cartão, a proposta foi fazer validar os dados do cartão inserido pelo usuário através do [Algorítimo de Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm), posteriormente seguir com a finalização do pagamento caso seu cartão seja válido, e assim poder realizar a compra.
+Criei um ambiente de e-commerce mais precisamente ja na etapa de pagamento via cartão, a proposta foi fazer validar os dados do cartão inserido pelo usuário através do [Algorítimo de Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm), posteriormente seguir com a finalização do pagamento caso seu cartão seja válido, e assim poder realizar a compra.
 
 Após inserir os números do cartão que são limitados até 16 caracteres, clicando no botao "Verificar Cartão", abaixo aparece o resultado se o mesmo é valido ou não com os dígitos ocultos com ###, restando apenas 4 dígitos expostos, se for válido, a informação aparece na cor verde, se não, a resposta da negativa é apresentada na cor é vermelha, caso não seja digitado nenhuma informação no campo, e ainda assim o botão "Verificar Cartão" seja clicado, o retorno é de um pop-up com a mensagem:"Preencha o campo abaixo".
 No rodapé há uma paquena imagem do logo do linkedin, que ao clicar direciona ao meu perfil.
