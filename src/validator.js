@@ -5,7 +5,7 @@ const validator = {
         let card = Array.from(nCard)
         let reverterNumero = card.reverse()
 
-        let soma = 0
+        let soma = 0  
 
         for (let i = 0; i < reverterNumero.length; i++) {
 
@@ -25,7 +25,9 @@ const validator = {
                 soma = soma + Number(reverterNumero[i])
             }
         }
-        if (soma % 10 === 0) {
+        
+        
+        if (soma % 10 === 0){
             return true
 
         }
@@ -38,7 +40,6 @@ const validator = {
 
     maskify(nCard) {
         let maskNum = [];
-        console.log(nCard.length)
 
         for (let i = 0; i < nCard.length; i++) {
             if (i < (nCard.length - 4)) {

@@ -3,30 +3,38 @@ body{
 background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
 }
 
+h1{
+    text-align: center;
+    color: #bfcbe0;
+}
+#FotoProduto{
+    width: 100%;
+    
+   
+}
+
 .conteudo {
     font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
-    top: 40%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.2);
     padding-left: 20px; 
-    padding-right: 20px;
+    padding-right: 60px;
     padding-bottom: 20px;
     border-radius: 15px;
   
 
-}
-h1{
-    color: #a8bee4;
+} 
   
-}
-.numeroCard{
+.campoCartao{
     color:darkgray;
     font-weight: bold
 }
 .nCartao {
     font-size: 16px;
+    border-radius: 5px;
 
 }
 .validar{
@@ -42,6 +50,7 @@ h1{
     transform: scale(1.2);
 }
 
+
 footer{
 position: fixed;
 bottom:20px;
@@ -52,3 +61,10 @@ color:rgb(204, 197, 197);
 font-size: 17px;
 }
 
+#logoLinkedin{
+    width: 30px;
+    position:fixed; bottom: 15px; 
+    margin-left: 10px;
+
+
+}
