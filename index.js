@@ -16,12 +16,18 @@ function validando(e) {
         let mascara = validator.maskify(nCard);
 
         if (validarCard === true) {
-            return resposta.textContent = "CARTÃO VÁLIDO " + mascara;
+            resposta.textContent = "CARTÃO VÁLIDO " + mascara;
+            resposta.style.color = "#32CD32";
+            resposta.style.fontSize = "17px";
+            resposta.style.fontWeight = "bold";
+
         } else {
-            return resposta.textContent = "CARTÃO INVÁLIDO " + mascara;
+            resposta.textContent = "CARTÃO INVÁLIDO " + mascara;
+            resposta.style.color = "#B22222";
+            resposta.style.fontSize = "17px";
+            resposta.style.fontWeight = "bold";
         }
     }
-
 }
 
 button.addEventListener("click", validando);
