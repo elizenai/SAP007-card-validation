@@ -5,17 +5,17 @@ const button = document.getElementById("validar");
 function validando(e) {
     e.preventDefault()
 
-    let nCard = document.getElementById("numeroCartao").value;
-    console.log(nCard)
-    if (nCard == "") {
+    let nCartao = document.getElementById("numeroCartao").value;
+   
+    if (nCartao == "") {
         alert("Preencha o campo abaixo")
     }
     else {
-        let validarCard = validator.isValid(nCard);
+        let validarCartao = validator.isValid(nCartao);
         let resposta = document.getElementById("resposta");
-        let mascara = validator.maskify(nCard);
+        let mascara = validator.maskify(nCartao);
 
-        if (validarCard === true) {
+        if (validarCartao === true) {
             resposta.textContent = "CARTÃO VÁLIDO " + mascara;
             resposta.style.color = "#32CD32";
             resposta.style.fontSize = "17px";

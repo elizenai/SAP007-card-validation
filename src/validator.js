@@ -1,9 +1,9 @@
 const validator = {
 
-    isValid: function (nCard) {
+    isValid: function (nCartao) {
 
-        let card = Array.from(nCard)
-        let reverterNumero = card.reverse()
+        let arrayCartao = Array.from(nCartao)
+        let reverterNumero = arrayCartao.reverse()
 
         let soma = 0  
 
@@ -27,7 +27,7 @@ const validator = {
         }
         
         
-        if (soma % 10 === 0){
+        if (soma % 10 === 0 && soma !== 0){
             return true
 
         }
