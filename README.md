@@ -38,4 +38,4 @@ No rodapé há uma paquena imagem do logo do linkedin, que ao clicar direciona a
 - Trello
 
 ---
-Criado por [Elizenai Silva](https://github.com/elizenai) - [Linkedin](https://www.linkedin.com/in/elizenai/).
+Criado por [Elizenai Silva](https://github.com/elizenai), primeiro projeto da Laboratória - [Linkedin](https://www.linkedin.com/in/elizenai/).
